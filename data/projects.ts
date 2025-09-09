@@ -44,60 +44,61 @@ export const projects: Project[] = [
     longDescription: 'Foodie is a full-stack web application for restaurants, built with React, Node.js, Express, and MongoDB. It allows customers to browse menus, make online reservations, learn about the restaurant’s story and team, and explore its features. The app is designed with responsive UI for a smooth experience across desktop, tablet, and mobile.',
     image: '/food.png',
     technologies: ['React', 'Vite', 'CSS3', 'JavaScript ES6+', 'Node.js', 'Express.js', 'MongoDB'],
-    githubUrl: 'https://github.com/Simran-Kumari123/Foodie',
-    demoUrl: '#',
+    githubUrl: 'https://github.com/Simran-Kumari123/Foodiee',
+    demoUrl: 'https://foodiee-eosin.vercel.app/',
     featured: true,
     category: 'Full Stack'
   },
   {
     id: '4',
-    title: 'Social Media API',
-    description: 'RESTful API for a social media platform with authentication and real-time features.',
-    longDescription: 'A robust RESTful API built for a social media platform. Includes user authentication, post creation and management, real-time messaging, friend connections, image uploads, and comprehensive API documentation with Swagger.',
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop',
-    technologies: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.io', 'Cloudinary'],
-    githubUrl: 'https://github.com/yourusername/social-media-api',
-    demoUrl: 'https://api-docs-demo.vercel.app',
+    title: 'Wedding Planner Website',
+    description: 'A comprehensive wedding planning web application built with React frontend and Node.js backend. This application helps couples organize their wedding with features like vendor directory, budget management, guest list management, RSVP tracking, and wedding checklist.',
+    longDescription: 'A comprehensive wedding planning web application built with React frontend and Node.js backend. This application helps couples organize their wedding with features like vendor directory, budget management, guest list management, RSVP tracking, and wedding checklist. Features include home page with wedding countdown and photo gallery, planning tools, vendor directory, budget manager, guest list, RSVP tracker, wedding checklist, and photo gallery. Backend provides RESTful API endpoints for all wedding planning features with CORS enabled.',
+    image: '/wedding.png',
+    technologies: ['React', 'React Router', 'Bootstrap', 'Axios', 'Node.js', 'Express.js', 'CORS'],
+    githubUrl: 'https://github.com/Simran-Kumari123/Wedding-Planner-Website',
+    demoUrl: '#',
     featured: false,
-    category: 'Backend'
-  },
+    category: 'Full Stack'
+  },    
 
  {
   id: '5',
   title: 'Portfolio Website',
   description: 'Modern, responsive portfolio website built with Next.js and TypeScript.',
-  longDescription: 'A modern portfolio website showcasing projects and skills. Features smooth animations, responsive design, contact form integration, SEO optimization, and accessibility compliance. Built with Next.js 13+ app router and deployed on Vercel, it serves as a professional showcase of development work and capabilities.',
+longDescription: 'A modern portfolio website showcasing projects and skills. Features smooth animations, responsive design, contact form integration, SEO optimization, and accessibility compliance. Built with Next.js 13+ app router and deployed on Vercel, it serves as a professional showcase of development work and capabilities. While deploying on Vercel, I encountered errors such as FUNCTION_INVOCATION_TIMEOUT (504) and DEPLOYMENT_NOT_FOUND (404). I debugged these by optimizing function execution and verifying DNS settings, which improved deployment reliability.',
   image: '/portfolio.png',
   technologies: ['Next.js', 'TypeScript', 'Framer Motion', 'CSS Modules', 'Vercel'],
-  githubUrl: 'https://github.com/yourusername/portfolio',
-  demoUrl: 'https://yourportfolio.vercel.app',
+  githubUrl: 'https://github.com/Simran-Kumari123/simmu-portfolio',
+  demoUrl: 'https://simmu-portfolio.vercel.app/',
   featured: true,
   category: 'Frontend'
 },
 
 
-  {
-    id: '6',
-    title: 'AI Chat Application',
-    description: 'Intelligent chat application powered by OpenAI with conversation history.',
-    longDescription: 'An AI-powered chat application that integrates with OpenAI\'s GPT models. Features include conversation history, message threading, user authentication, customizable AI personalities, and export functionality for chat histories.',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-    technologies: ['Next.js', 'OpenAI API', 'Prisma', 'PostgreSQL', 'NextAuth.js', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat-app',
-    demoUrl: 'https://ai-chat-demo.vercel.app',
-    featured: false,
-    category: 'Full Stack'
-  },
-  // ✅ New Projects Below
+ {
+  id: '6',
+  title: 'HireHub',
+  description: 'Modern job portal built with Next.js 14, React 18, and Tailwind CSS.',
+  longDescription: 'HireHub is a comprehensive job portal application leveraging a modern tech stack for optimal performance and user experience. The frontend is powered by Next.js 14, a React-based framework that provides server-side rendering, static site generation, and excellent developer experience with features like automatic code splitting and optimized bundling. The application uses React 18 as its core JavaScript library for building interactive user interfaces with component-based architecture. For styling, the project utilizes Tailwind CSS 3.3, a utility-first CSS framework that enables rapid UI development with pre-built classes and responsive design capabilities. TypeScript 5 adds type safety and better code maintainability, while ESLint ensures clean and consistent code quality. With PostCSS and Autoprefixer, the styling is fully cross-browser compatible. The project structure follows Next.js conventions with pages-based routing, reusable components, utility functions for authentication and storage management, and optimized static assets handling. This tech stack ensures fast loading times, SEO optimization, responsive design across devices, and a scalable architecture suitable for deployment on platforms like Vercel or Netlify.',
+  image: '/hirehub.png',
+  technologies: ['Next.js 14', 'React 18', 'Tailwind CSS 3.3', 'TypeScript 5', 'PostCSS', 'ESLint'],
+  githubUrl: 'https://github.com/Simran-Kumari123/HireHub',
+  demoUrl: 'https://hire-hub-eosin.vercel.app/',
+  featured: false,
+  category: 'Frontend'
+},
+
+ 
   {
     id: '7',
-    title: 'Task Manager App',
-    description: 'A productivity web app to manage tasks with drag-and-drop boards.',
+    title: 'Travelmate- Tourist Website',
+    description: 'Travelmate is a task management tool with boards, cards, deadlines, and team collaboration features.',
     longDescription: 'A Trello-like task manager built with React and Firebase. Features include user authentication, drag-and-drop task management, deadlines, priority levels, and team collaboration.',
-    image: '/blog.png',
+    image: '/travel.png',
     technologies: ['React', 'Firebase', 'Tailwind CSS', 'React DnD'],
-    githubUrl: 'https://github.com/yourusername/task-manager',
-    demoUrl: 'https://taskmanager-demo.vercel.app',
+    githubUrl: 'https://github.com/Simran-Kumari123/travelmate',
+    demoUrl: ' ',
     featured: false,
     category: 'Frontend'
   },
@@ -109,7 +110,7 @@ export const projects: Project[] = [
   image: '/quiz.png',
   technologies: ['HTML5', 'CSS3', 'JavaScript'],
   githubUrl: 'https://github.com/Simran-Kumari123/Online-Quiz',
-  demoUrl: 'https://online-quiz-demo.netlify.app',
+  demoUrl: ' https://online-quiz-bice.vercel.app/',
   featured: false,
   category: 'Frontend'
 },
@@ -122,7 +123,7 @@ export const projects: Project[] = [
     image: '/blog.png',
    technologies: ['React 18.2.0', 'React Router DOM 6.8.0', 'Vite 4.1.0', 'CSS3', 'localStorage'],
     githubUrl: 'https://github.com/Simran-Kumari123/Simran-Blog-Platform',
-    demoUrl: 'https://blogcms-demo.vercel.app',
+    demoUrl: ' ',
     featured: false,
     category: 'Frontend'
   }

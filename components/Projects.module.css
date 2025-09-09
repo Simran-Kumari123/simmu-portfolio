@@ -85,7 +85,8 @@
   background: #111111;
   border-radius: 20px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(102, 126, 234, 0.8);
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
   transition: all 0.3s ease;
   position: relative;
    grid-column: span 2; 
@@ -93,8 +94,8 @@
 }
 
 .projectCard:hover {
-  border-color: rgba(102, 126, 234, 0.3);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 1);
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.6);
 }
 
 .projectCard.featured {

@@ -6,9 +6,10 @@ import { skills, skillCategories, getSkillsByCategory } from '@/data/skills';
 import {
   SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3,
   SiTailwindcss, SiSass, SiVuedotjs, SiNodedotjs, SiExpress, SiPython,
-  SiDjango, SiFastapi, SiPhp, SiLaravel, SiMongodb, SiPostgresql,
-  SiMysql, SiRedis, SiPrisma, SiGit, SiDocker, SiAmazonaws, SiVercel,
-  SiFigma, SiVisualstudiocode, SiGraphql, SiSocketdotio, SiJest, SiCypress
+  SiFastapi, SiPhp, SiSpring, SiDotnet, SiMongodb, SiPostgresql,
+  SiMysql, SiSqlite, SiOracle, SiGit, SiDocker, SiAmazonaws, SiVercel,
+  SiFigma, SiVisualstudiocode, SiNetlify, SiGraphql, SiSocketdotio,
+  SiRedux, SiPostman
 } from 'react-icons/si';
 import styles from './About.module.css';
 
@@ -16,9 +17,10 @@ import styles from './About.module.css';
 const iconMap: { [key: string]: any } = {
   SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3,
   SiTailwindcss, SiSass, SiVuedotjs, SiNodedotjs, SiExpress, SiPython,
-  SiDjango, SiFastapi, SiPhp, SiLaravel, SiMongodb, SiPostgresql,
-  SiMysql, SiRedis, SiPrisma, SiGit, SiDocker, SiAmazonaws, SiVercel,
-  SiFigma, SiVisualstudiocode, SiGraphql, SiSocketdotio, SiJest, SiCypress
+  SiFastapi, SiPhp, SiSpring, SiDotnet, SiMongodb, SiPostgresql,
+  SiMysql, SiSqlite, SiOracle, SiGit, SiDocker, SiAmazonaws, SiVercel,
+  SiFigma, SiVisualstudiocode, SiNetlify, SiGraphql, SiSocketdotio,
+  SiRedux, SiPostman
 };
 
 const About = () => {
